@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"net/http"
+	"tutorial-practice/02_mock_and_test/testable_code/controllers"
 )
 
 var(
@@ -10,10 +10,7 @@ var(
 )
 
 func main()  {
-	router.GET("/ping", pingHander);
-	router.Run(":8080")
-}
+	router.GET("/ping", controllers.Ping)
 
-func pingHander(c *gin.Context){
-	c.String(http.StatusOK, "pong")
+	router.Run(":8080")
 }
