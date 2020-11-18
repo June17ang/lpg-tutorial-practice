@@ -14,3 +14,7 @@ go get -u github.coIm/gin-gonic/gin
       export GOPATH=$GOPATH:{user}/workspace/go/code
 
 - filepath : workspace > go > code > src > tutorial-practice > 02_mock_and_test
+
+03_hand_on_project
+refer to [here] (https://github.com/MKGAURAB/Hands-on-Go) 
+Thank so much
